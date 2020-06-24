@@ -32,8 +32,8 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	implementation 'org.springframework.boot:spring-boot-starter-batch:2.3.1.RELEASE'
-	api 'org.springframework:spring-oxm'
-	api 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
+	implementation 'org.springframework:spring-oxm'
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
